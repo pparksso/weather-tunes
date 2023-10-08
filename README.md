@@ -1,27 +1,22 @@
-# React + TypeScript + Vite
+# 날씨 기반 음악 플레이리스트 추천 앱
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 메인 기능
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 현재 날씨에 기반한 음악 리스트 생성
+- 곡 sns로 공유하기 기능(카카오톡)
+- 스포티파이 로그인
 
-## Expanding the ESLint configuration
+## 세부기능
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- 다크/라이트 모드 지원
+- 반응형 웹
+- 곡 플레이
+- 곡 제목 선택 시 해당 곡이 포함 된 앨범페이지로 이동
 
-- Configure the top-level `parserOptions` property like this:
+## 개발도구
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- react
+- typescript
+- styled-component
