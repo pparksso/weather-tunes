@@ -4,6 +4,7 @@ specifiers:
   '@types/node': ^20.8.2
   '@types/react': ^18.2.15
   '@types/react-dom': ^18.2.7
+  '@types/styled-components': ^5.1.28
   '@typescript-eslint/eslint-plugin': ^6.0.0
   '@typescript-eslint/parser': ^6.0.0
   '@vitejs/plugin-react': ^4.0.3
@@ -29,6 +30,7 @@ devDependencies:
   '@types/node': 20.8.2
   '@types/react': 18.2.25
   '@types/react-dom': 18.2.10
+  '@types/styled-components': 5.1.28
   '@typescript-eslint/eslint-plugin': 6.7.4_sjhwt3bl5psuxqi3hx6z7r6ola
   '@typescript-eslint/parser': 6.7.4_jk7qbkaijtltyu4ajmze3dfiwa
   '@vitejs/plugin-react': 4.1.0_vite@4.4.11
@@ -1723,6 +1725,13 @@ packages:
       '@babel/types': 7.23.0
     dev: true
 
+  /@types/hoist-non-react-statics/3.3.2:
+    resolution: {integrity: sha512-YIQtIg4PKr7ZyqNPZObpxfHsHEmuB8dXCxd6qVcGuQVDK2bpsF7bYNnBJ4Nn7giuACZg+WewExgrtAJ3XnA4Xw==}
+    dependencies:
+      '@types/react': 18.2.25
+      hoist-non-react-statics: 3.3.2
+    dev: true
+
   /@types/json-schema/7.0.13:
     resolution: {integrity: sha512-RbSSoHliUbnXj3ny0CNFOoxrIDV6SUGyStHsvDqosw6CkdPV8TtWGlfecuK4ToyMEAql6pzNxgCFKanovUzlgQ==}
     dev: true
@@ -1755,6 +1764,14 @@ packages:
 
   /@types/semver/7.5.3:
     resolution: {integrity: sha512-OxepLK9EuNEIPxWNME+C6WwbRAOOI2o2BaQEGzz5Lu2e4Z5eDnEo+/aVEDMIXywoJitJ7xWd641wrGLZdtwRyw==}
+    dev: true
+
+  /@types/styled-components/5.1.28:
+    resolution: {integrity: sha512-nu0VKNybkjvUqJAXWtRqKd7j3iRUl8GbYSTvZNuIBJcw/HUp1Y4QUXNLlj7gcnRV/t784JnHAlvRnSnE3nPbJA==}
+    dependencies:
+      '@types/hoist-non-react-statics': 3.3.2
+      '@types/react': 18.2.25
+      csstype: 3.1.2
     dev: true
 
   /@types/stylis/4.2.1:
@@ -2468,6 +2485,12 @@ packages:
     engines: {node: '>= 0.4.0'}
     dev: false
 
+  /hoist-non-react-statics/3.3.2:
+    resolution: {integrity: sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==}
+    dependencies:
+      react-is: 16.13.1
+    dev: true
+
   /ignore/5.2.4:
     resolution: {integrity: sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==}
     engines: {node: '>= 4'}
@@ -2772,6 +2795,10 @@ packages:
       react: 18.2.0
       scheduler: 0.23.0
     dev: false
+
+  /react-is/16.13.1:
+    resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
+    dev: true
 
   /react-refresh/0.14.0:
     resolution: {integrity: sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==}
